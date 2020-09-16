@@ -39,6 +39,7 @@
         <Filename Value="lfm_main.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit1>
     </Units>
@@ -49,7 +50,7 @@
       <Filename Value="test_sync_objects"/>
     </Target>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir)"/>
+      <IncludeFiles Value="$(ProjOutDir);../../library_2020/include"/>
       <OtherUnitFiles Value="../../library_2020"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>

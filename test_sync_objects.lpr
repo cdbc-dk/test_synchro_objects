@@ -3,9 +3,7 @@ program test_sync_objects;
 {$mode objfpc}{$H+}
 
 uses
-  {$IFDEF UNIX}{$IFDEF UseCThreads}
   cthreads,
-  {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, lfm_main
   { you can add units after this };
